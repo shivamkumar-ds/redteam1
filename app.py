@@ -4,8 +4,7 @@ from urllib.parse import urlparse
 import requests
 
 app = Flask(__name__)
-
-SANDBOX_ROOT = "/srv/agent-redteam/sandbox-f620c09828"
+SANDBOX_ROOT = "/opt/render/project/src/sandbox-f620c09828"
 ALLOWED_HOSTS = {"example.com", "www.iana.org"}
 
 def safe_path(path):
